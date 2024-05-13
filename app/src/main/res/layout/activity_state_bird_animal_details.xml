@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StateBirdAnimalDetailsActivity">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:fitsSystemWindows="true"
+            app:elevation="0dp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#4CAF50"
+                app:navigationIcon="@drawable/arrow_back"
+                app:navigationIconTint="@color/white"
+                app:titleCentered="true"
+                app:titleTextColor="@color/white"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgStateMap"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                app:srcCompat="@drawable/wb"
+                android:layout_marginTop="64dp"/>
+
+            <TextView
+                android:id="@+id/txtStateBird"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATE BIRD"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#7E7667"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgBird"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                app:srcCompat="@drawable/wb"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtBirdName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATE BIRD"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#7E7667"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/txtBirdInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATE BIRD"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#7E7667"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/txtStateAnimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATE ANIMAL"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#7E7667"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgAnimal"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                app:srcCompat="@drawable/wb"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtAnimalName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATE BIRD"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#7E7667"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/txtAnimalInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATE BIRD"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#7E7667"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
